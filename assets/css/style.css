@@ -863,7 +863,7 @@ label {
 
 /* 4. Banner */
 .banner-bg {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/banner/banner_bg.jpg);
+	background-image: url(/assets/img/banner/banner_bg.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -1072,29 +1072,6 @@ label {
 	padding: 225px 0 0;
 	z-index: 1;
 }
-.banner-bg-two {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/banner/banner_bg02.jpg);
-	background-size: cover;
-	background-position: center;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: calc(100% - 164px);
-	z-index: -1;
-}
-.banner-bg-two::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: -40px;
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/banner/banner_shape.svg);
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 722px;
-	z-index: -1;
-}
 .banner-area-two .banner-content img {
 	margin-bottom: 0;
 }
@@ -1164,24 +1141,6 @@ label {
 
 
 /* 5. Breadcrumb */
-.breadcrumb-bg {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/breadcrumb-bg.jpg);
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	padding: 235px 0 150px;
-}
-.breadcrumb-bg::before {
-	position: absolute;
-	content: "";
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/breadcrumb_shape.png);
-	background-repeat: repeat;
-	background-position: center;
-	left: 0;
-	bottom: 0px;
-	width: 100%;
-	height: 19px;
-}
 .breadcrumb-content {
 	text-align: center;
 }
@@ -1530,35 +1489,6 @@ label {
 }
 
 /* choose-two */
-.choose-bg {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/choose_bg.jpg);
-	background-size: cover;
-	background-position: center;
-	padding: 130px 0 218px;
-	position: relative;
-}
-.choose-bg::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/choose_shape01.png);
-	background-position: center;
-	background-repeat: repeat;
-	width: 100%;
-	height: 25px;
-}
-.choose-bg::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/choose_shape02.png);
-	background-position: center;
-	background-repeat: repeat;
-	width: 100%;
-	height: 19px;
-}
 .choose-item-two {
 	margin-bottom: 30px;
 }
@@ -1577,7 +1507,7 @@ label {
 	padding: 0 110px;
 }
 .chart-bg {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/chart_bg.jpg);
+	background-image: url(/assets/img/bg/chart_bg.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 130px 0;
@@ -2049,7 +1979,7 @@ label {
 
 /* 12. Document */
 .area-bg {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/area_bg.png);
+	background-image: url(/assets/img/bg/area_bg.png);
 	background-size: cover;
 	background-position: center;
 }
@@ -2158,31 +2088,6 @@ label {
 }
 
 /* team-two */
-.team-bg {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/team_bg.jpg);
-	background-size: cover;
-	background-position: center;
-	padding: 130px 0 100px;
-	position: relative;
-}
-.team-bg::after,
-.team-bg::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/team_shape01.png);
-	background-position: center;
-	background-repeat: repeat;
-	width: 100%;
-	height: 29px;
-}
-.team-bg::after {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/team_shape02.png);
-	top: auto;
-	bottom: 0;
-	height: 23px;
-}
 .team-item.team-item-two .team-thumb img {
 	border-radius: 0;
 	filter: grayscale(100%);
@@ -2803,15 +2708,6 @@ label {
 	position: relative;
 	margin-bottom: 30px;
 }
-.contact-info-item::before {
-	content: "";
-	position: absolute;
-	right: -61px;
-	top: 44px;
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/images/line.png);
-	width: 122px;
-	height: 9px;
-}
 .contact-info-wrap .row [class*="col-"]:last-child .contact-info-item::before {
 	display: none;
 }
@@ -2872,12 +2768,6 @@ label {
 .contact-info-wrap .row [class*="col-"]:nth-child(3) .icon-background::before {
 	border-color: #EB950D;
 }
-.contact-form-wrap {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/contact_bg.png);
-	background-position: center;
-	background-size: cover;
-	padding: 80px;
-}
 .contact-form-wrap .form-grp {
 	margin-bottom: 30px;
 }
@@ -2910,31 +2800,6 @@ label {
 }
 
 /* contact-two */
-.contact-bg {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/contact_bg02.jpg);
-	background-size: cover;
-	background-position: center;
-	padding: 130px 0 250px;
-	position: relative;
-}
-.contact-bg::after,
-.contact-bg::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/contact_shape01.png);
-	background-position: center;
-	background-repeat: repeat;
-	width: 100%;
-	height: 29px;
-}
-.contact-bg::after {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/contact_shape02.png);
-	top: auto;
-	bottom: 0;
-	height: 18px;
-}
 .contact-inner {
 	padding: 0 40px;
 }
@@ -3378,24 +3243,6 @@ label {
 }
 
 /* footer-three */
-.footer-bg {
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/breadcrumb-bg.jpg);
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	padding-top: 120px;
-}
-.footer-bg::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-image: url(https://smthemebazar.com/html/bigtech/assets/img/bg/footer_shape.png);
-	background-repeat: repeat;
-	background-position: center;
-	width: 100%;
-	height: 29px;
-}
 .footer-area-three .footer-top {
 	padding: 0 0 50px;
 }
